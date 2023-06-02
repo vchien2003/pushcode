@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Pure CSS Fly In Sidebar Nav</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+<link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style.css">
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<section class="app">
+  <aside class="sidebar">
+    <div class="avt my-2">
+        <p href="#" class="flex items-center gap-2  p-4 ">
+          <img
+            alt="Man"
+            src="https://res.cloudinary.com/dz4cezwre/image/upload/v1685605481/anh-hacker-den-trang_111114145_rbywif.jpg"
+            class="  object-cover  mx-auto"
+            style="width: 150px; border-radius: 90px;"
+          />
+    
+          <div>
+            <p class="text-xs">
+              <strong class="block font-medium font-bold text-2xl	font-sans	text-white">Xin chào: <span> Admin</span></strong>
+    
+              
+            </p>
+          </div>
+        </p>
+      </div>
+    <nav class="sidebar-nav">
+ 
+      <ul>
+        <li>
+          <a href="#"><i class="ion-bag"></i> <span>Sản phẩm</span></a>
+          <ul class="nav-flyout">
+            <li>
+              <a href="#"><i class="ion-clipboard"></i>List</a>
+            </li>
+            <li>
+              <a href="#"><i class="ion-plus-circled"></i>Add</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><i class="ion-ios-settings"></i> <span class="">Danh mục</span></a>
+          <ul class="nav-flyout">
+            <li>
+                <a href="#"><i class="ion-clipboard"></i>List</a>
+              </li>
+              <li>
+                <a href="#"><i class="ion-plus-circled"></i>Add</a>
+              </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><i class="ion-person"></i> <span class="">User</span></a>
+          <ul class="nav-flyout">
+            <li>
+                <a href="#"><i class="ion-clipboard"></i>List</a>
+              </li>
+              <li>
+                <a href="#"><i class="ion-person-add"></i>Add</a>
+              </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><i class="ion-briefcase"></i> <span class="">Đơn hàng</span></a>
+          <ul class="nav-flyout">
+            <li>
+              <a href="#"><i class="ion-clipboard"></i>Planes</a>
+            </li>
+       
+          </ul>
+        </li>
+       
+        <li>
+          <a href="#"><i class="ion-ios-medical-outline"></i> <span class="">Logout</span></a>
+        </li>
+      </ul>
+    </nav>
+    
+  </aside>
+  
+</section>
+<!-- partial -->
+
+</body>
+</html>
